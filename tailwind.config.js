@@ -4,11 +4,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "shio-pink": "#FFD4CE"
-        "shio-beige": "#C1B6AC"
-        "shio-black": "#506369"
-        "shio-white": "#FDFDFD"
-      }
+        "shio-pink": "#FFD4CE",
+        "shio-beige": "#C1B6AC",
+        "shio-black": "#506369",
+        "shio-white": "#FDFDFD",
+      },
+
     },
   },
   plugins: [],

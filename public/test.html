@@ -1,18 +1,294 @@
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <title>test</title>
   </head>
 
   <body>
-    <div
-      class="text-shio-black md:text-white text-4xl p-10 bg-shio-pink w-56 h-32 md:h-48"
+    <section
+      class="h-screen bg-[url('https://images.unsplash.com/photo-1507646871303-331b8f659227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1025&q=80')] bg-no-repeat bg-cover relative"
     >
-      light code
-    </div>
+      <header>
+        <nav
+          class="backdrop-blur-sm bg-gray-700/40 p-2 mt-0 fixed w-full z-10 top-0"
+        >
+          <div class="container mx-auto flex flex-wrap items-center">
+            <div
+              class="flex w-full md:w-1/2 justify-center md:justify-start text-shio-white font-extrabold"
+            >
+              <a
+                class="text-shio-white no-underline hover:text-white hover:no-underline"
+                href="#"
+              >
+                <img src="https://placehold.co/140x80" alt="" />
+              </a>
+            </div>
+            <div
+              class="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end"
+            >
+              <ul
+                class="list-reset flex justify-between flex-1 md:flex-none items-center"
+              >
+                <li class="mr-3">
+                  <a
+                    class="inline-block text-shio-white no-underline hover:text-gray-200 hover:text-underline py-2 px-4"
+                    href="#aporpos"
+                    >A PROPOS</a
+                  >
+                </li>
+                <li class="mr-3">
+                  <a
+                    class="inline-block text-shio-white no-underline hover:text-gray-200 hover:text-underline py-2 px-4"
+                    href="#projet"
+                    >PROJET</a
+                  >
+                </li>
+                <li class="mr-3">
+                  <a
+                    class="inline-block text-shio-white no-underline hover:text-gray-200 hover:text-underline py-2 px-4"
+                    href="#contact"
+                    >CONTACT</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="absolute left-0 bottom-10 p-4 w-full md:w-2/3">
+        <h1 class="text-4xl md:text-6xl text-shio-white">Featured Title</h1>
+        <p class="text-xl md:text-2xl text-shio-white">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit
+          venenatis aliquet nunc nam scelerisque. Proin congue viverra risus
+          placerat augue odio cras neque. Felis netus tincidunt sed hac urna.
+        </p>
+      </div>
+    </section>
+    <main>
+      <section class="w-4/5 mt-24 mx-auto" id="aporpos">
+        <div class="border-t-2 border-b-2">
+          <p class="text-lg text-center py-6">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
+            tincidunt et turpis habitasse ultrices condimentum velit. At nulla
+            eu urna cras sed odio mauris vivamus erat. Elit mi massa nisl enim.
+            Tristique massa sit est in senectus amet, ut nullam. Amet
+            consectetur netus duis diam. Consectetur pellentesque non eget nisl,
+            pretium, ultrices. Tortor dignissim pretium aliquet nunc, pulvinar.
+            Faucibus tincidunt odio tincidunt massa lobortis aliquam venenatis
+            neque. Tortor porttitor parturient sagittis non faucibus faucibus
+            tincidunt ut aliquam. Egestas sed massa enim tempor at orci
+            dignissim id. Sed metus mi leo rutrum felis.
+          </p>
+        </div>
+      </section>
+      <section class="bg-shio-pink w-screen mt-12">
+        <div class="py-16 w-4/5 mx-auto">
+          <div class="flex flex-row w-full">
+            <h2 class="text-2xl md:text-4xl whitespace-nowrap pr-4">
+              Nos Services
+            </h2>
+            <hr class="flex-grow-1 border-l-4 border-shio-black w-full mt-6" />
+          </div>
+          <ul
+            class="flex flex-row flex-wrap justify-center md:justify-around space-x-4 mt-12"
+          >
+            <li class="text-center w-72">
+              <img
+                class="h-auto w-6/12 mx-auto"
+                src="/images/1538206805.png"
+                alt=""
+              />
+              <h3>A</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi,
+                distinctio perspiciatis soluta voluptatibus aperiam quos, iure
+                ipsa blanditiis laborum ipsam expedita alias nulla explicabo
+                eligendi, dolorum labore aliquid. Cumque, soluta.
+              </p>
+            </li>
+            <li class="text-center w-72">
+              <img
+                class="h-auto w-6/12 mx-auto"
+                src="/images/1538205053.png"
+                alt=""
+              />
+              <h3>B</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi,
+                distinctio perspiciatis soluta voluptatibus aperiam quos, iure
+                ipsa blanditiis laborum ipsam expedita alias nulla explicabo
+                eligendi, dolorum labore aliquid. Cumque, soluta.
+              </p>
+            </li>
+            <li class="text-center w-72">
+              <img
+                class="h-auto w-6/12 mx-auto"
+                src="/images/1538206182.png"
+                alt=""
+              />
+              <h3>C</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi,
+                distinctio perspiciatis soluta voluptatibus aperiam quos, iure
+                ipsa blanditiis laborum ipsam expedita alias nulla explicabo
+                eligendi, dolorum labore aliquid. Cumque, soluta.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="my-12 w-4/5 mx-auto" id="projet">
+        <div class="flex flex-row w-full mt-24">
+          <h2 class="text-2xl md:text-4xl whitespace-nowrap pr-4">Projets</h2>
+          <hr class="flex-grow-1 border-l-4 border-shio-black w-full mt-6" />
+        </div>
+
+        <div class="relative mt-12 flex flex-col items-center justify-center">
+          <div
+            class="carousel scrollbar-hide flex w-full snap-x snap-mandatory gap-4 overflow-x-scroll scroll-smooth"
+          >
+            <div
+              class="relative aspect-[1/1] w-96 shrink-0 snap-start snap-always rounded-xl bg-[url('https://images.unsplash.com/photo-1490750967868-88aa4486c946?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80')] bg-no-repeat bg-cover"
+            ></div>
+
+            <div
+              class="relative aspect-[1/1] w-96 shrink-0 snap-start snap-always rounded-xl bg-[url('https://images.unsplash.com/photo-1568010967378-b92ea68220c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80')] bg-no-repeat bg-cover"
+            ></div>
+
+            <div
+              class="relative aspect-[1/1] w-96 shrink-0 snap-start snap-always rounded-xl bg-[url('https://images.unsplash.com/photo-1532211387405-12202cb81d7b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80')] bg-no-repeat bg-cover"
+            ></div>
+
+            <div
+              class="relative aspect-[1/1] w-96 shrink-0 snap-start snap-always rounded-xl bg-[url('https://images.unsplash.com/photo-1456415333674-42b11b9f5b7b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80')] bg-no-repeat bg-cover"
+            ></div>
+
+            <div
+              class="relative aspect-[1/1] w-96 shrink-0 snap-start snap-always rounded-xl bg-[url('https://images.unsplash.com/photo-1518105570919-e342af1a8275?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80')] bg-no-repeat bg-cover"
+            ></div>
+
+            <div
+              class="relative aspect-[1/1] w-96 shrink-0 snap-start snap-always rounded-xl bg-[url('https://images.unsplash.com/photo-1561724676-9777a742df61?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80')] bg-no-repeat bg-cover"
+            ></div>
+
+            <div
+              class="relative aspect-[1/1] w-96 shrink-0 snap-start snap-always rounded-xl bg-[url('https://images.unsplash.com/photo-1560717789-0ac7c58ac90a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80')] bg-no-repeat bg-cover"
+            ></div>
+          </div>
+
+          <div class="pagination my-4 flex gap-2">
+            <span
+              class="h-3 w-3 ease-out duration-300 rounded-full bg-black"
+            ></span>
+            <span
+              class="h-3 w-3 ease-out duration-300 rounded-full bg-black"
+            ></span>
+            <span
+              class="h-3 w-3 ease-out duration-300 rounded-full bg-black"
+            ></span>
+            <span
+              class="h-3 w-3 ease-out duration-300 rounded-full bg-black"
+            ></span>
+            <span
+              class="h-3 w-3 ease-out duration-300 rounded-full bg-black"
+            ></span>
+            <span
+              class="h-3 w-3 ease-out duration-300 rounded-full bg-black md:hidden"
+            ></span>
+            <span
+              class="h-3 w-3 ease-out duration-300 rounded-full bg-black md:hidden"
+            ></span>
+          </div>
+          <div>
+            <button class="prev-btn bg-gray-200 p-2">Prev</button>
+            <button class="next-btn bg-gray-200 p-2">Next</button>
+          </div>
+        </div>
+      </section>
+      <section class="" id="contact"></section>
+    </main>
+    <footer></footer>
+
+    <script>
+      const container = document.querySelector(".carousel");
+      const slides = document.querySelectorAll(".carousel > div");
+      const dots = document.querySelectorAll(".pagination > span");
+      const prevBtn = document.querySelector(".prev-btn");
+      const nextBtn = document.querySelector(".next-btn");
+
+      const breakpoint = 768;
+      const slidesPerPage = 3;
+      const totalSlidesCount = slides.length;
+      // Mobile stuff
+      let touchStartX = 0;
+      let touchEndX = 0;
+
+      // Previous
+      prevBtn.addEventListener("click", () => {
+        container.scrollBy({
+          left: -slides[0].offsetWidth,
+          behavior: "smooth",
+        });
+        const centerSlideIndex = getCenterSlideIndex() - 1;
+        updateActiveDot(centerSlideIndex);
+      });
+
+      // Next
+      nextBtn.addEventListener("click", () => {
+        container.scrollBy({ left: slides[0].offsetWidth, behavior: "smooth" });
+        const centerSlideIndex = getCenterSlideIndex() + 1;
+        updateActiveDot(centerSlideIndex);
+      });
+
+      // Mobile
+      container.addEventListener("touchstart", (event) => {
+        touchStartX = event.touches[0].clientX;
+      });
+
+      container.addEventListener("touchmove", (event) => {
+        touchEndX = event.touches[0].clientX;
+      });
+
+      container.addEventListener("touchend", () => {
+        let centerSlideIndex;
+        const swipeThreshold = 50;
+
+        if (touchStartX - touchEndX > swipeThreshold) {
+          centerSlideIndex = getCenterSlideIndex() + 1;
+        } else {
+          centerSlideIndex = getCenterSlideIndex() - 1;
+        }
+
+        updateActiveDot(centerSlideIndex);
+        touchStartX = 0;
+        touchEndX = 0;
+      });
+
+      // Misc functions
+      function updateActiveDot(centerSlideIndex) {
+        const isMobileView = container.offsetWidth <= breakpoint;
+        const dotsCount = isMobileView ? dots.length : dots.length - 2;
+        const slidesCount = isMobileView ? 1 : dotsCount - slidesPerPage;
+        const pageIndex = centerSlideIndex - slidesCount;
+        if (pageIndex >= 0 && pageIndex < dotsCount) {
+          dots.forEach((dot) => dot.classList.remove("w-8"));
+          dots[pageIndex].classList.add("w-8");
+        }
+      }
+
+      function getCenterSlideIndex() {
+        const slideWidth = slides[0].offsetWidth;
+        const containerWidth = container.offsetWidth;
+        const centerSlideIndex = Math.round(
+          (container.scrollLeft + Math.floor(containerWidth / 2)) / slideWidth
+        );
+        return centerSlideIndex;
+      }
+    </script>
   </body>
 </html>
